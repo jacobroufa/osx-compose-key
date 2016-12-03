@@ -1,0 +1,25 @@
+{
+  "name": "osx-compose-key",
+  "version": "0.2.0",
+  "description": "Compose key binding for complex character inputs",
+  "scripts": {
+    "setup": "./install.sh",
+    "update-bindings": "node binding-generator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnarf/osx-compose-key.git"
+  },
+  "contributors": [
+    "Mx Corey Frang <gnarf@gnarf.net> (http://gnarf.net/)",
+    "Jacob M. Roufa <jacob.roufa@gmail.com> (http://jacobroufa.com/)"
+  ],
+  "bugs": {
+    "url": "https://github.com/gnarf/osx-compose-key/issues"
+  },
+  "homepage": "https://github.com/gnarf/osx-compose-key#readme",
+  "devDependencies": {
+    "markdown-table": "1.0.0",
+    "shelljs": "0.7.5"
+  }
+}
